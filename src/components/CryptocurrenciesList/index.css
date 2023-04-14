@@ -1,0 +1,90 @@
+/* Write your CSS code here */
+.render-loader-crypto {
+  display: flex;
+  justify-content: center;
+}
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  color: #00e7ff;
+  font-family: 'Roboto';
+  font-size: 22px;
+  font-weight: bold;
+}
+.image-container {
+  width: 80%;
+}
+.image {
+  width: 100%;
+}
+ul {
+  min-width: 300px;
+  width: 90%;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid #00e7ff;
+}
+@media screen and (min-width: 800px) {
+  .image-container {
+    width: 60%;
+  }
+  ul {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+}
+.item-heading {
+  background-color: #092e33;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.coinTextHeading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 17px;
+  font-weight: 500;
+}
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.currency-container {
+  display: flex;
+  align-items: center;
+  padding-right: 14px;
+  width: 40%;
+  justify-content: space-between;
+}
+@media screen and (max-width: 406px) {
+  .currency-container {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .currency-container {
+    width: 25%;
+  }
+}
+.usd-currency {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: bold;
+  padding-right: 14px;
+}
+.euro-currency {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: bold;
+}
